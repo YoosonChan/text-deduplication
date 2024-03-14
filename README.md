@@ -4,9 +4,8 @@
 
 ### Requirements
 
-||||
-|-|-|-|
 |package|version|remarks|
+|-|-|-|
 |nodejieba|2.5.2||
 |node|14.21.3||
 |[vite](https://v4.vitejs.dev/)|[<5](https://www.npmjs.com/package/vite?activeTab=versions)|[Vite 5 no longer supports Node.js 14 / 16 / 17 / 19](https://vitejs.dev/guide/migration.html)|
@@ -17,22 +16,20 @@
 
 We may encounter problems in the system environment that yield installation failure when building the package.
 
-|||
-|-|-|
 |modules|remarks|
+|-|-|
 |node-gyp|[node-gyp](https://nodejs.github.io/node-addon-examples/build-tools/node-gyp) requires [Python 2.7](https://www.python.org/downloads/release/python-2715/) or [Python 3.5+](https://www.python.org/downloads/) depending upon the operating system on which the native module is being built. |
 |[node-pre-gyp](https://nodejs.github.io/node-addon-examples/build-tools/node-pre-gyp)|This requires each user to have the necessary **[C/C++ build tools](https://visualstudio.microsoft.com/vs/older-downloads/)** [installed](https://stackoverflow.com/questions/57879150/how-can-i-solve-error-gypgyp-errerr-find-vsfind-vs-msvs-version-not-set-from-c)|
 
 ### Recommended version
 
-||||
-|-|-|-|
-|package|version|remarks|
-|nodejieba|2.5.2||
-|node|14.21.3||
-|vite|4.5.2||
-|@vitejs/plugin-vue|4.6.2||
-|vitest|0.34.6||
+|package|version|
+|-|-|
+|nodejieba|2.5.2|
+|node|14.21.3|
+|vite|4.5.2|
+|@vitejs/plugin-vue|4.6.2|
+|vitest|0.34.6|
 
 ### Description
 
