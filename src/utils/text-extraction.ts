@@ -1,20 +1,13 @@
-import { cut } from 'nodejieba';
-
-export function extractWithEn(text: string) {
-  let result: string[] = []
-  if (text.length && typeof text === 'string') {
-    result = text.split(' ')
-    // TODO - handle punctuation marks
-  }
-  return result
+interface Data {
+  chinese: string
+  english: string
+  soundmark: string
 }
 
-export function extractWithZh(text: string) {
-  let result: string[] = []
-  if (text.length && typeof text === 'string') {
-    result = cut(text)
-    // result = text.split('')
-    // TODO - handle punctuation marks
-  }
-  return result
+export function extractWithEn(data: Data[]) {
+  return data.map(d => d.english)
+}
+
+export function extractWithZh(data: Data[]) {
+  return data.map(d => d.chinese)
 }

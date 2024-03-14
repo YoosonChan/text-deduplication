@@ -9,9 +9,6 @@
     "preview": "vite preview",
     "test": "vitest"
   },
-  "engines": {
-    "node": "^14.21.3"
-  },
   "dependencies": {
     "nodejieba": "^2.5.2",
     "vue": "^3.4.21"

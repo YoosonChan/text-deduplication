@@ -20,6 +20,6 @@
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true
   },
-  "include": ["src/**/*.ts", "src/**/*.tsx", "src/**/*.vue", "src/utils/text-extraction.ts", "src/utils/text-extraction.ts"],
+  "include": ["src/**/*.ts", "src/**/*.tsx", "src/**/*.vue", "src/utils/text-segment.ts", "src/utils/text-segment.ts"],
   "references": [{ "path": "./tsconfig.node.json" }]
 }

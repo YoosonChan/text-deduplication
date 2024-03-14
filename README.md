@@ -1,6 +1,14 @@
 # Text Deduplication
 
-## The problem of installation (at the Windows system)
+## The problem of installation at the Windows system
+
+If the current system is a Windows system, We need to add the following configuration in the `package.json` file:
+
+```json
+"engines": {
+  "node": "^14.21.3"
+}
+```
 
 ### Requirements
 
